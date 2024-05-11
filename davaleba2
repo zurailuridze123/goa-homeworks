@@ -1,0 +1,3 @@
+name = input("dawere sheni saxeli")
+lastname = input("dawere sheni gvari")
+print("name + lastame")

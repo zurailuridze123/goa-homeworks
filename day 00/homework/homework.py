@@ -35,7 +35,7 @@ pendown()
 
 
 begin_fill()
-color("green")
+color("blue")
 right(150)         #roof
 forward(200)
 left(120)
@@ -48,7 +48,7 @@ left(30)
 forward(60)
 left(90)
 forward(10)
-color("lightblue")       #left window
+color("black")       #left window
 begin_fill()
 forward(50)
 left(90)
@@ -68,7 +68,7 @@ color("red")
 forward(60)
 right(90)
 forward(10)
-color("lightblue")
+color("black")
 begin_fill()
 forward(50)
 right(90)                #right window

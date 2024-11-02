@@ -1,63 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+  
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #ff416c, #ff4b2b);
+        font-family: Arial, sans-serif;
+    }
+
+ 
+    .table-container {
+        width: 80%;
+        max-width: 600px;
+        background-color: #1abc9c;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+  
+    thead tr {
+        background-color: #1abc9c;
+        color: white;
+    }
+
+    thead th {
+        padding: 15px;
+        font-size: 16px;
+        text-align: left;
+        position: sticky;
+        top: 0;
+        background-color: #1abc9c;
+    }
+
+    tbody tr {
+        background-color: #20c997;
+        color: white;
+    }
+
+    tbody td {
+        padding: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    
+    tbody tr:nth-child(even) {
+        background-color: #17a589;
+    }
+</style>
 </head>
 <body>
 
-    <div class="">
-        <table>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Price</th>
+                <th>Change</th>
+                <th>Change %</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Australian Company</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-0.36%</td>
+            </tr>
+            <tr>
+                <td>Ausenco</td>
+                <td>$2.38</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+            <tr>
+                <td>Adelaide</td>
+                <td>$3.22</td>
+                <td>+0.01</td>
+                <td>+1.36%</td>
+            </tr>
+            <tr>
+                <td>Aditya Birla</td>
+                <td>$1.02</td>
+                <td>-1.01</td>
+                <td>+2.36%</td>
+            </tr>
+            <tr>
+                <td>Australian Company</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-0.36%</td>
+            </tr>
+            <tr>
+                <td>Ausenco</td>
+                <td>$2.38</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 </body>
 </html>
-
    

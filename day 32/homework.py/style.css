@@ -1,0 +1,30 @@
+                      /****************Dalate argin and padding*************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+                    /************************Main********************/
+
+.GOA{
+    color: rgb(0, 37, 247);
+    font-family: cursive;
+    font-size: 60px;
+}
+.oriented{
+    color: aquamarine;
+    font-size: 60px;
+    font-family: cursive;
+}
+.academi{
+    color: rgba(208, 29, 29, 0.359);
+    font-family: cursive;
+    font-size: 60px;
+}
+#is{
+    color: black;
+    font-size: 58px;
+}
+.N1{
+    color: rgb(196, 62, 62);
+
+}

@@ -5,6 +5,5 @@ def check_odd_even():
     else:
         print(f"{number} არის კენტი")
 
-# ფუნქციის გამოძახება
-check_odd_even()  # მაგალითად, input: 9 >>> output: 9 არის კენტი
 
+check_odd_even() 

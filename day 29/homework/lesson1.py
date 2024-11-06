@@ -4,6 +4,6 @@ def check_even_odd(number):
     else:
         return "odd"
 
-# მაგალითი გამოძახება
-print(check_even_odd(4))  # output: even
-print(check_even_odd(7))  # output: odd
+
+print(check_even_odd(4))  
+print(check_even_odd(7))   

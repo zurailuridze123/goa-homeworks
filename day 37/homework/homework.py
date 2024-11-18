@@ -1,3 +1,1 @@
-words = x. ('')
-res = words[]
-(res)
+# aq davale gvqonda sololernshi da wameshala sololernis eqaunti

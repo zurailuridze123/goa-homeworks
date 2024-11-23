@@ -7,7 +7,7 @@ def split_even_odd(numbers):
             even_numbers.append(number)
         else:
             odd_numbers.append(number)
-    
+            
     return even_numbers, odd_numbers
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

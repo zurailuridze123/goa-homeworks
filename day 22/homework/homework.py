@@ -1,1 +1,2 @@
-print('ჩვენ ვაკეთებდით day 14 იდან და ეგ იყო day 18 ჯგუფში')
+# washlilia metvramete jgufi da 27-0 amde ver gavaketeb davalebas radgan washlilia jgufi 
+# da ver vnaxulob

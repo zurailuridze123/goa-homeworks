@@ -1,0 +1,21 @@
+
+div {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    transition: all 0.3s ease;
+    background-color: rgb(145, 139, 139);
+}
+#div1:hover {
+    transform: rotate(280deg);
+    background-color: #eca50d; 
+}
+#div2:hover {
+    transform: scale(3);
+    background-color: #14e873; 
+}
+#div3:hover {
+    transform: translateX(100px) rotate(45deg); 
+    background-color: #008cff; 
+}

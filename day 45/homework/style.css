@@ -1,0 +1,20 @@
+.container {
+    width: scale(1.2px);
+    height: (230px);
+    background-color: #f39c12;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.box {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    transition: all 0.9s ease;
+    transform: translateX(10px) rotate(5deg); 
+    background-color: #008cff; 
+}

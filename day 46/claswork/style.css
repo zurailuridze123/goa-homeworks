@@ -1,0 +1,14 @@
+@keyframes zura {
+    0%   {background-color: red; transform: translateX(0);}
+    50%  {background-color: yellow; transform: translateX(100px);}
+    100% {background-color: green; transform: translateX(0);}
+  }
+.animacia{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: zura;
+  animation-duration: 4s;
+  animation-iteration-count: 10000000000;
+}
+

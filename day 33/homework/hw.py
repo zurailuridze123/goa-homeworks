@@ -19,7 +19,7 @@ print(highest_temperature)
 
 
 # 4. Calculate and print the average temperature using the sum() function divided by the length of the list
-temperatures = [72, 68, 75, 70, 78, 74, 71]
+# temperatures = [72, 68, 75, 70, 78, 74, 71]
 average_temperature = sum(temperatures)
 print(average_temperature)
 
@@ -29,7 +29,7 @@ temperatures = [72, 68, 75, 70, 78, 74, 71]
 above_70 = [temp for temp in temperatures if temp > 70]
 print(above_70)
 
-#6. Print the above_70 list
+ #6. Print the above_70 list
 temperatures = [72, 68, 75, 70, 78, 74, 71]
 above_70 = [temp for temp in temperatures if temp > 70]
 print(above_70)

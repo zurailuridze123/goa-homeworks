@@ -4,6 +4,5 @@ def check_even_odd(number):
     else:
         return "odd"
 
-
 print(check_even_odd(4))  
 print(check_even_odd(7))   
